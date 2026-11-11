@@ -1,0 +1,10 @@
+PennyPilot integration completed:
+- Removed Firebase JavaScript SDK, Firebase Authentication and Firestore usage from the supplied frontend.
+- Replaced signup/login with Flask authentication APIs and JWT token handling.
+- Replaced Firestore transaction CRUD with Flask transaction APIs.
+- Replaced hard-coded category choices with categories loaded from MySQL through the Flask API.
+- Replaced browser-only budget storage with the existing MySQL budget API.
+- Configured Flask static/index.html and static/style.css to serve the integrated frontend.
+- Kept the supplied backend modules and database schema.
+
+Before running: create .env from .env.example and use your own MySQL credentials.
